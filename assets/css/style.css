@@ -1,88 +1,37 @@
-#title {
-    font-size: 28px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-}
-
-#subtitle {
-    color: #993673;
-}
-.brand-mag-dark {
-    color: #993673;
-}
-
-.brand-mag-light {
-    color: #cc4899;
-}
-
-.brand-cya-dark {
-    color: #3a7da6;
-}
-
-.brand-cya-light {
-    color: #4899cc;
-}
-
-a {
-  text-decoration: none;
-  color: #202020;
-  font-size: 16px;
-}
-
-ol, ul {
-  box-sizing: border-box;
-}
-
-ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-  unicode-bidi: isolate;
-}
-
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-  unicode-bidi: isolate;
-}
-
-img {
-  overflow-clip-margin: content-box;
-  overflow: clip;
-}
-
-div{
-  height: 200px;
-  width: 100%;
-}
-
-#slider {
-  background-image: url('../images/home.jpg');
-  background-size: cover;
-  height: 500px;;
-  padding: 0,0,0,0;
-}
-
-.slider-text {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 700;
-  text-align: center;
-  padding-top: 90px;
-}
-
 html{
-    background-color: #F3E8FF:
+    background-color: #222831;
 }
 
 html, body {
+  background-color: #222831;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 100;
   font-style: normal;
 }
+
+.carousel-container {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.filter-grayscale {
+  filter: grayscale(100%);
+}
+
+.custom-footer {
+  background-color: #393E46;
+  color: white; 
+}
+
+#info-box {
+  background-color: #393E46;
+  font-palette: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
 
 h1 {
     font-family: "Montserrat", sans-serif;
@@ -90,6 +39,7 @@ h1 {
     font-weight: 900;
     font-style: normal;
   }
+
 
   .lato-thin {
     font-family: "Lato", sans-serif;
