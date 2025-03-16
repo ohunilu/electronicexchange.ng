@@ -2,10 +2,10 @@ html{
     background-color: #222831;
 }
 
-html, body {
+.main-body {
   background-color: #222831;
   font-family: "Poppins", sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -25,16 +25,45 @@ html, body {
   color: white; 
 }
 
+.dark-text {
+  color: #EEEEEE;
+}
+
 #info-box {
   background-color: #393E46;
+  color: white;
   font-palette: #ffffff;
   padding: 15px;
   border-radius: 10px;
 }
 
+#info-box h2,
+#info-box p,
+#info-box h4 {
+    color: white;
+}
 
-h1 {
-    font-family: "Montserrat", sans-serif;
+.custom-button {
+  background-color: #00ADB5 !important;
+  border-color: #00ADB5 !important;
+  color: white !important;
+}
+
+.custom-button:hover {
+  background-color: #008A92 !important; /* Darker shade for hover effect */
+  border-color: #008A92 !important;
+}
+
+.custom-svg {
+  color: #00ADB5 !important;
+}
+
+.feature-icon-small svg {
+  color: #00ADB5 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
