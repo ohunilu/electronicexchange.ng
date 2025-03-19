@@ -10,11 +10,15 @@ html{
 }
 
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  padding: 25px;}
+  padding: 75px;
+}
 
 .carousel-caption h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: xx-large;
   color: #00ADB5;
 }
 
@@ -73,6 +77,13 @@ h1, h2, h3, h4, h5, h6 {
   #custom-footer h5{
     color: #00ADB5;
   }
+
+  .Montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
   .lato-thin {
     font-family: "Lato", sans-serif;
     font-weight: 100;
