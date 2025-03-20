@@ -4,7 +4,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    overflow: hidden;
+    overflow: visible; /* Allow dropdown to be fully displayed */
+    z-index: 1050; /* Higher z-index to ensure visibility */
     margin: 0 auto;
     position: fixed;
     top: 0;
@@ -16,7 +17,6 @@
     text-align: center;
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
-    z-index: 2;
     background: linear-gradient(180deg, rgb(238, 238, 238), rgba(238, 238, 238, 0.795));
 }
 
@@ -66,8 +66,14 @@
 
 .header-menu {
     align-items: center;
-    overflow: hidden;
+    overflow: visible; /* Allow dropdowns to expand properly */
+    position: relative; /* Helps with dropdown positioning */
     background-color: #222831;
     height: 55px;
 }
 
+/* Ensure dropdown appears above other elements */
+.dropdown-menu {
+    z-index: 1100; /* Higher than the navbar */
+    position: absolute; /* Ensure it displays properly */
+}
