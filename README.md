@@ -4,7 +4,7 @@ Welcome to the development diary of the Electronic Exchange website! This projec
 
 ## Project Overview
 
-This website is being meticulously crafted from scratch using HTML, CSS, Bootstrap, and JavaScript. The goal is to create a fully functional site that not only showcases the business services but also incorporates an AI chatbot to engage visitors and provide information about service offerings.
+This website is being meticulously crafted from scratch using HTML, CSS, Bootstrap, and JavaScript. The goal is to create a fully functional site that not only showcases the business services but will also incorporate an AI chatbot to engage visitors and provide information about service offerings.
 
 ## The Journey Begins
 
@@ -31,7 +31,9 @@ Started working on the layout using HTML and CSS. The focus was on creating a re
 
 By adding the Bootstrap CDN code I was able to add the carousel to display messages in rotation and then added a navbar, footer and a card design also from bootstrap. I was able to customize some of the bootstrap elements with the codes in my style.css and header.css files
 
-### Day 4: Adding Interactivity
+I struggled with choosing a color pallette until I used the site colorhunt.com which gave me access to browser through color pallete other web designers where using.
+
+### Day 3: Adding Interactivity
 
 Incorporated JavaScript to add interactivity to the site. This includes dynamic content updates and user interactions.
 
